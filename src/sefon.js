@@ -3,6 +3,7 @@
  * @file sefon
  * @description 全局变量
  */
+"use strict";
 
 var sefon = {
     version: '0.01'

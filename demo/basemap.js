@@ -7,7 +7,9 @@
 //var Url='../../../../leaflet/leaflet-demo/tile_google/{z}/{x}/{y}.png';
 //var map = new L .map('map').setView([30.6729, 104.0758], 8);
 //L.tileLayer(Url).addTo(map);
-
+var southWest = L.latLng(35.42486791930558, 97.05322265625001);
+var northEast = L.latLng(25.880847747329447, 108.62800598144533);
+var bounds = L.latLngBounds(southWest, northEast);
 var Url = '../../../../leaflet/leaflet-demo/tile_google/{z}/{x}/{y}.png';
-var map = new sefon.map('map').setView([30.6729, 104.0758], 8);
+var map = new sefon.map('map').setView([30.6729, 104.0758], 8).setMaxBounds(bounds);
 sefon.tileLayer(Url).addTo(map);

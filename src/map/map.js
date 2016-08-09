@@ -3,14 +3,11 @@
  * @file map
  * @description 地图基础类
  */
-
 (function () {
+    "use strict";
     var defaultSetting = {
         id: 'map-container',
         options: {
-            zoom: 10,
-            minZoom: 7,
-            maxZoom: 14
         }
     }
     /**
