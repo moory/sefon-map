@@ -10,6 +10,10 @@
     "leaflet",
     "webgis"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phoneball/sefon-map.git"
+  },
   "author": "phobal",
   "license": "MIT",
   "devDependencies": {
