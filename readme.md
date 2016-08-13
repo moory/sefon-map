@@ -19,6 +19,6 @@ $ npm install
 3、打包
 ``` bash
 
-$ gullp
+$ gulp
 
 ```
