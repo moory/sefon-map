@@ -33,7 +33,7 @@ gulp.task('browser-sync', function () {
         //     index: "base-map.html"
         //},
         /*这里的proxy写的是需要代理的服务器，我自己的wamp启动的是localhost:80*/
-        proxy:"http://localhost:63342/Leaflet/sefon-map/demo/base-map.html",
+        proxy:"http://localhost:3000",
         /*这里写的是代理后，bs在哪个端口打开*/
         //port: 81,
         ghostMode: {
