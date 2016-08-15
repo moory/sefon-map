@@ -3,7 +3,7 @@
  *   @file TileLayer.WMS
  * @description WMS标准图层类
  */
-(function () {
+;(function () {
     "use strict";
     var defaultSetting = {
         url: null,

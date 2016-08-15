@@ -3,11 +3,13 @@
  * @file map
  * @description 地图基础类
  */
-(function () {
+;(function () {
     "use strict";
     var defaultSetting = {
         id: 'map-container',
         options: {
+            zoomControl:false,
+            attributionControl:false
         }
     }
     /**

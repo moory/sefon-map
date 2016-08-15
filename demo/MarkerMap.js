@@ -13,3 +13,4 @@ var bounds = L.latLngBounds(southWest, northEast);
 var Url = '../../../../leaflet/leaflet-demo/tile_google/{z}/{x}/{y}.png';
 var map = new sefon.map('map').setView([30.6729, 104.0758], 8).setMaxBounds(bounds);
 sefon.tileLayer(Url).addTo(map);
+sefon.Marker([30.7617, 103.9526]).addTo(map);

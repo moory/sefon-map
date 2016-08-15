@@ -4,5 +4,6 @@
  * @description
  */
 ;(function () {
-    sefon.lang = {};
+    sefon.resources = {};
+    sefon.lang=null;
 })();

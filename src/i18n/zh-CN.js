@@ -3,3 +3,9 @@
  * @file zh-CN
  * @description
  */
+;(function () {
+    sefon.resources['zh-CN'] = {
+        zoomInTitle: '放大',
+        zoomOutTitle: '缩小'
+    }
+})();

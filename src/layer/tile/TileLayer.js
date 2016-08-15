@@ -3,7 +3,7 @@
  * @file layer
  * @description 地图图层layer类
  */
-(function () {
+;(function () {
     "use strict";
     var Url = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpandmbXliNDBjZWd2M2x6bDk3c2ZtOTkifQ._QA7i5Mpkd_m30IGElHziw';
     var defaultSetting = {

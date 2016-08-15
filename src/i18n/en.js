@@ -3,3 +3,9 @@
  * @file en
  * @description
  */
+;(function () {
+    sefon.resources['en'] = {
+        zoomInTitle: 'Zoom in',
+        zoomOutTitle: 'Zoom out'
+    }
+})();

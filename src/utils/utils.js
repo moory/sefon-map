@@ -3,7 +3,7 @@
  * @file utils
  * @description sefon公共方法类
  */
-(function(){
+;(function(){
     sefon.utils={
 
     }
