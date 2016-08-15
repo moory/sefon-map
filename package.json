@@ -26,5 +26,8 @@
     "gulp-uglify": "^2.0.0",
     "leaflet": "^0.7.7",
     "run-sequence": "^1.2.2"
+  },
+  "dependencies": {
+    "leaflet-draw": "^0.3.2"
   }
 }
