@@ -16,8 +16,19 @@ $ git clone https://github.com/phoneball/sefon-map.git
 $ npm install
 ```
 
-3、打包
+3、启动服务
 ``` bash
+
+$ npm run start
+
+```
+
+4、打包
+
+``` bash
+$ npm run gulp 
+
+或者
 
 $ gulp
 
