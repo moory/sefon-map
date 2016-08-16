@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server":"node server.js",
-    "gulp":"gulp"
+    "server": "node server.js",
+    "gulp": "gulp"
   },
   "keywords": [
     "leaflet",
@@ -21,6 +21,7 @@
   "devDependencies": {
     "browser-sync": "^2.14.0",
     "del": "^2.2.1",
+    "ee-first": "^1.1.1",
     "express": "^4.14.0",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
@@ -28,6 +29,7 @@
     "gulp-sourcemaps": "^1.6.0",
     "gulp-uglify": "^2.0.0",
     "leaflet": "^0.7.7",
+    "mime-db": "^1.23.0",
     "run-sequence": "^1.2.2"
   },
   "dependencies": {
