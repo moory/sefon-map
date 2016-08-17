@@ -10,25 +10,24 @@ var http = require('http');
 
 var app = express();
 
-app.use('/node_modules',express.static(__dirname+'/node_modules'));
-app.use('/vendor',express.static(__dirname+'/demo/vendor'));
-app.use('/dist',express.static(__dirname+'/dist'));
-app.use('/config',express.static(__dirname+'/demo/config'));
-app.use('/tile_google',express.static(__dirname+'/demo/tile_google'));
-app.use('/zone-sync.js',express.static(__dirname+'/demo/zone-sync.js'));
+app.use('/node_modules', express.static(__dirname + '/node_modules'));
+app.use('/vendor', express.static(__dirname + '/demo/vendor'));
+app.use('/dist', express.static(__dirname + '/dist'));
+app.use('/config', express.static(__dirname + '/demo/config'));
+app.use('/maptile', express.static(__dirname + '/demo/maptile'));
+app.use('/registerMap.js', express.static(__dirname + '/demo/registerMap.js'));
 // app.use(express.static('./vendor'));
-app.get('/', function (request, response) {
+app.get('/', function(request, response) {
     response.sendFile(path.resolve(__dirname, '', './demo/zone-sync.html'))
 });
 
 var port = 3000;
 var server = http.createServer(app);
 
-server.listen(port,'localhost', function (err, result) {
+server.listen(port, 'localhost', function(err, result) {
     if (err) {
         console.log(err);
-    }
-    else {
+    } else {
         console.log('服务运行在端口:' + port);
     }
 });
