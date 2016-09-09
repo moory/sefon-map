@@ -11,7 +11,7 @@ var map = new sefon.map('map').setView([30.6729, 104.0758], 8).setMaxBounds(boun
 sefon.tileLayer(Url).addTo(map);
 sefon.control(map);
 
-map.on('click', function (e) {
+map.on('click', function(e) {
     console.log(e.latlng);
 })
 
@@ -23,6 +23,6 @@ var latlngs = [
     [30.661836194808348, 104.07125473022461]
 ];
 //var polyline = L.polyline(latlngs, {color: 'red'}).addTo(map);
-var polygon = L.polygon(latlngs, {color: 'blue'}).addTo(map).bindPopup("chengdu");
+var polygon = L.polygon(latlngs, { color: 'blue' }).addTo(map).bindPopup("chengdu");
 map.fitBounds(polygon.getBounds());
 //console.log(polygon.toGeoJSON());
